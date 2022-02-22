@@ -121,5 +121,21 @@ font-size: 25px;
 margin-top: 30px;
 background-color: lightgrey;   
 text-align: center;
+}
 
+.join 
+{
+font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+display: flex;    
+background-color: rgb(240, 240, 28);
+align-items: center;
+flex-direction: column;
+}
+.join > button 
+{
+font-size: 30px;
+font-family: myFont;
+ background-color: plum;
+margin-bottom: 20px;
 }
