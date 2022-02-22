@@ -1,5 +1,125 @@
+@font-face {
+    font-family: myFont;
+    src: url(./college/college.ttf);
+}
+
+
+
+body 
+{
+    margin: 0%;
+}
+
 .nav 
 {
-background-color: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(247,0,23,1) 35%, rgba(176,20,34,1) 98%)
+ font-family: myFont; 
+ background: linear-gradient(90deg, rgba(236,1,23,1) 3%, rgba(156,0,0,1) 98%);
+ display: flex;
+ justify-content: space-around;
+}
+
+/* centers the h1*/
+.nav > h1 
+{
+    font-family: myFont; 
+    align-self: center;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    -webkit-text-stroke: 1px;
+    -webkit-text-fill-color: yellow;
+}
+
+/* Sizes the images */
+.nav > div > img
+{
+max-height: 100px;
+max-width: 100px;
+}
+
+/* link styling */
+.nav > div > a 
+{
+     font-family: myFont; 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 0.5px;
+    -webkit-text-fill-color: yellow;
+    font-size: 1.4rem;
+    border: 0.5px;
+    background-color: green;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    text-align: center;
+}
+
+.nav > div 
+{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.header 
+{
+font-family: myFont; 
+padding-top: 20px;    
+display: flex;
+justify-content: center;
+font-size: 25px;
+gap: 100px;
+padding-left: 5%;
+}
+
+header > img 
+{
+max-width: 500px;
+max-height: 200px;
+}
+
+.line
+{
+    border-top: 4px solid #abc9ba;
+}
+
+.main 
+{
+display: flex;
+flex-direction: column;
+}
+
+.albums 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.albums > h3 
+{
+    font-family: myFont; 
+    font-size: 75px;
+    color: rgb(0, 0, 0);
+    -webkit-text-stroke: 1px;
+    -webkit-text-fill-color: #abc9ba;
+}
+.albums > div > img {
+max-width: 300px;
+border-radius: 50%;
+}
+
+.albums > div {
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.quote 
+{
+font-family:'Times New Roman', Times, serif;  
+font-size: 25px;
+margin-top: 30px;
+background-color: lightgrey;   
+text-align: center;
 
 }
